@@ -1,0 +1,17 @@
+html{
+	background: #ededed;
+	font:inherit;
+	font-size:100%;
+	margin: 0;
+	padding:0;
+}
+h1{
+	color=red;
+}
+div{
+	padding: 4px;
+}
+span{
+	padding: 4px;
+}
+

@@ -1,0 +1,68 @@
+let madhu={
+	firstName: 'madhu''
+	lastName:  'khanal',
+	fullName(){
+	return this.,firstName + this.lastName;
+	}
+};
+
+let someone = object.create(madhu);
+someone.firstName="some";
+someone.lastName="one";
+
+someone.fullName();
+someone.firstName;
+someone['first Name']// while using bracket we can give space
+
+
+class person{
+	constructor(first Name, last Name){
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	fullName(){
+		return this.firstName + this.lastName;
+	}
+}
+
+
+class hero extends person{
+	constructor(firstName,latName,power){
+	super(firstName,lastName);
+	this.power = power
+	}
+}
+
+
+
+
+var madhu = new person('madhu','khanal')
+madhu.fullName();
+
+
+
+dom manipulation  " main important"
+	document.getElementByClassName ('warning')// for class
+	var ptags = document.getElementByTagName('p');
+	Array.from(warning);
+
+.hello p{
+	
+}
+<div class="hello">
+	<p> helloworld </p>
+	<p> helloworld </p>
+</div>
+var ps = document.querySelectorAll ('.hello p');
+var p = document.query
+
+
+
+
+
+
+
+
+
+
+
