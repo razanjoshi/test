@@ -1,0 +1,94 @@
+body{
+	/*background-color: black;*/
+	
+}
+
+.header{
+	/*margin : 10px;*/
+	/*height: 30%;*/
+	/*padding-bottom: 10px;*/
+	width: 100%;
+	background-color: rgba(239, 189, 128, 0.63); 
+	border: 5px;
+	border-color: "orange";	
+}
+
+.line{height: 2px; background-color: rgb(236, 74, 11); margin-top: 10px; width: 100%;}
+.image{
+	/*width: 20%;*/
+	height: auto;
+	float:left;
+	height: 100%;
+	border-radius: 55px;
+}
+
+/*.header hr{border-bottom: 3px; width: 100%; margin-top: 5%; }*/
+.name
+{
+	margin-left: 10%;
+	font-size: 30px;
+	color: black;
+	/*width: 20%;*/
+	float:left;
+	height: 100%;
+	/*float:left;*/
+	/*margin-top:10%;*/
+}
+
+.additional{float:right; font-size: 10px; height: auto;}
+
+.mainbody
+{
+	margin-left: 10%;
+	margin-top:  20px;
+	margin-right: 10%;
+	/*background-color: white;*/
+
+}
+.content hr{border-bottom: 1px; width: 100%; margin-top: 5%;}
+
+.content
+{
+	border-bottom: 1px;
+	border-color: "black";
+	/*padding: 5%;*/
+
+}
+
+.content .left
+{
+	font-size: 30px;
+	float:left;
+	color:orange;
+	width:40%; 
+}
+
+.content .right 
+{
+	color:black;
+	width: 60%;
+	float:right;
+}
+
+.content .right p
+{
+	font-size: 15px;
+	font-family: Times;
+}
+
+.content .right p#title
+{
+	font-size:20px;
+}
+
+.content .right p#date
+{
+	font-size: 10px;
+	font-family: italic;
+}
+
+.footer
+{
+	height: 20px;
+	background-color: black;
+}
